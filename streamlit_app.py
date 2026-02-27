@@ -36,7 +36,7 @@ def bereken_emissies(gas_m3, elektra_kwh, stroom_type, diesel_liter):
 
 def maak_staafdiagram(emissies_data):
     """Maak een staafdiagram van de emissies"""
-    if not emissies:
+    if not emissies_data
         return None
     
     categorieen = list(emissies_data.keys())
